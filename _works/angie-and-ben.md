@@ -1,11 +1,10 @@
 ---
-thumbnail: "/assets/images/@stock/msn-work-40.jpg"
+thumbnail: "/assets/images/angie-and-ben.jpg"
 slides:
   - "/assets/images/@stock/big-work-5.jpg"
   - "/assets/images/@stock/big-work-7.jpg"
 categories:
-  - Design
-  - Development
+  - Special Needs
 date: May 2013  
 link:
   text: 'Visit website'
