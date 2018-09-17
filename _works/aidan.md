@@ -2,7 +2,6 @@
 thumbnail: "/assets/images/aidan.jpg"
 slides:
   - "/assets/images/aidan.jpg"
-
 categories:
   - Athletic Training
 client: themeforest
