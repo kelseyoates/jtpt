@@ -60,7 +60,7 @@ members:
       "Jay has been my trainer for almost two years. Before I started training with him, I had borderline cholesterol levels which normalized after just a few months. I more than achieved and maintained my weight loss goal. I am in the best shape since I was in high school which is awesome considering I am 50 years old and a mom of two teenagers. My strength, balance and overall fitness have significantly improved."
   - avatar: /assets/images/@stock/member-4-4.png
     name: Jill
-    position: 
+    position: Client
     socials:
       - link: http://twitter.com
         icon: twitter
@@ -70,27 +70,27 @@ members:
       "I've been working out with Jay for over two years now. When I started, my back and neck hurt constantly. Now with his attention to my overall strength and fitness, my energy level is great and I no longer have back and neck pain."
 
 team_slides:
-  - /assets/images/@stock/slide-full-1.jpg
-  - /assets/images/@stock/slide-full-8.jpg
+  - /assets/images/injury.jpg
+  - /assets/images/group2.jpg
   - /assets/images/@stock/slide-full-11.jpg
   - /assets/images/@stock/slide-full-10.jpg
 
 testimonials:
-  - quote: "Reprehenderit eos et non et ut eum reprehenderit quis sequi quia vel repellendus id. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est."
+  - quote: "I am in the best shape since I was in high school which is awesome considering I am 50 years old and a mom of two teenagers."
     author: 
-      name: "David White"
+      name: "Jeanette"
       avatar: '/assets/images/@stock/author-avatar-1.png'
-      position: 'Designer at Huglab'
-  - quote: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing."
+      position: 'Mom of Two'
+  - quote: "After working with Jay for the past 9 months I have lost almost 50 lbs. More importantly, I have been pain free for the past 6 months!"
     author: 
-      name: "David White"
+      name: "Brandi"
       avatar: '/assets/images/@stock/author-avatar-2.png'
-      position: 'Designer at Huglab'
-  - quote: "Reprehenderit eos et non et ut eum reprehenderit quis sequi quia vel repellendus id. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est."
+      position: ''
+  - quote: "Jay does a tremendous job with my son, Ben, who is autistic. He is enthusiastic, upbeat and positive. Ben can now navigate his way around the gym, and with Jay's help, is establishing a lifestyle so he can be healthy and fit."
     author: 
-      name: "David White"
+      name: "Angie"
       avatar: '/assets/images/@stock/author-avatar-3.png'
-      position: 'Designer at Huglab'
+      position: 'Mom'
 
 clients:
   - /assets/images/1.png
@@ -112,7 +112,7 @@ clients:
 <div class='full no-padding parallax home-video-wrapper'>
   <div class='fullscreen'>
     <video autoplay='autoplay' id='fullscreen-video' loop='loop'>
-      <source src='{{ "/assets/video/Brooklyn-run.mp4" | relative_url }}' type='video/mp4'>
+      <source src='{{ "/assets/videos/Brooklyn-run.mp4" | relative_url }}' type='video/mp4'>
     </video>
     <div class='overlay'></div>
     <div class='layer'>
@@ -251,7 +251,7 @@ clients:
 <div class='full dark-grey'>
   <div class='row'>
     <div class='large-8 columns large-centered'>
-      {% include section-title.html small_title="Testimonials" title="What Jay's clients are saying." %}
+      {% include section-title.html small_title="Read" title="Testimonials" %}
     </div>
   </div>
 </div>
@@ -274,7 +274,7 @@ clients:
           <div class='intro'>
             <h3>{{ member.name | escape }}</h3>
             <h4>{{ member.position | escape }}</h4>
-            <p>{{ member.desc | escape }}</p>
+            <p class="text-left">{{ member.desc | escape }}</p>
             <!-- <ul class='socials'>
               {% for social in member.socials %}
                 <li>
@@ -291,7 +291,7 @@ clients:
   </div>
   <div class="four spacing"></div>
 </div>
-<div class="full no-padding">
+<!-- <div class="full no-padding">
   <div class='mod modBoxedSlider' data-timeout='1500'>
     <div class='slides'>
       {% for image in page.team_slides %}
@@ -301,9 +301,9 @@ clients:
       {% endfor %}
     </div>
   </div>
-</div>
+</div> -->
 
-
+<!-- 
 <a id='blog'></a>
 <div class='full grey'>
   <div class='row'>
@@ -328,10 +328,10 @@ clients:
       <div class="four spacing"></div>
     </div>
   {% endfor %}
-</div>
+</div> -->
 
 
-<div class='full no-overflow no-padding parallax' style="background-image: url({{ "/assets/images/@stock/customers-bg.jpg" | relative_url }})">
+<div class='full no-overflow no-padding parallax' style="background-image: url({{ "/assets/images/group2.jpg" | relative_url }})">
   <div class="left-half">
     <div class="two spacing"></div>
     <div class="row">
@@ -347,9 +347,9 @@ clients:
                   <p class='quote'>{{ t.quote }}</p>
                   <div class="two spacing"></div>
                   <div class='author'>
-                    <p class='author-avatar'>
+                    <!-- <p class='author-avatar'>
                       <img width="80" height="80" alt="" src="{{ t.author.avatar | relative_url }}" />
-                    </p>
+                    </p> -->
                     <p class='author-name'>
                       -
                       <strong>{{ t.author.name }}</strong>
