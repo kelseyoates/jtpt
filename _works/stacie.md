@@ -5,7 +5,7 @@ slides:
 categories:
   - Weight Loss
   - Self-Esteem
-date: 
+date: January, 2012
 link:
   text: 'Visit website'
   url: 'https://themeforest.net/category/static-site-generators/jekyll?ref=honryou'

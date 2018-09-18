@@ -4,7 +4,7 @@ slides:
   - "/assets/images/lindsay.jpg"
 categories:
   - Getting In Shape
-date:   
+date: January, 2012
 link:
   text: 'Visit website'
   url: 'https://themeforest.net/category/static-site-generators/jekyll?ref=honryou'

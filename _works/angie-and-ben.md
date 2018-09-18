@@ -4,7 +4,7 @@ slides:
   - "/assets/images/angie-and-ben.jpg"
 categories:
   - Special Needs
-date:  
+date:  January, 2012
 link:
   text: 'Visit website'
   url: 'https://themeforest.net/category/static-site-generators/jekyll?ref=honryou'
