@@ -5,7 +5,8 @@
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-  
+  <!-- <link rel="shortcut icon" src='{{ "/assets/images/favicon.ico" | relative_url }}'  type="image/x-icon">
+   -->
   {% for path in site.data.assets.css %}
   
     {%- if path contains '://' -%}

@@ -262,6 +262,7 @@ p#thanks {
 .video-bg {
   height: 600px;
   position: relative;
+
 }
 
 .video-bg .video-wrapper {
@@ -1304,14 +1305,14 @@ form input.error, form textarea.error {
 
 /* fullscreen header */
 .home-video-wrapper {
-/*  position: relative;
+ /* position: relative;
   top: -100px;
-  height: 100vh;*/
+  height: 100vh; */
 }
 
 .fullscreen {
-  min-height: 800px;
-  height: 100vh;
+  min-height: 600px;
+  /* height: 100vh; */
   position: relative;
   max-height: 1500px;
   background-size: cover;
