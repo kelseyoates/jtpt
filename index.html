@@ -379,7 +379,8 @@ clients:
       {% for client in page.clients %}
         <div class='large-3 medium-6 small-6 columns'>
           <div class="client">
-            <a href="javascript:void(0)"><img alt="" src="{{ client | relative_url }}" /></a>
+            <!-- <a href="javascript:void(0)"><img alt="" src="{{ client | relative_url }}" /></a> -->
+            <img alt="" src="{{ client | relative_url }}" />
           </div>
         </div>
       {% endfor %}
@@ -392,4 +393,4 @@ clients:
 <a id='contact'></a>
 {% include contact-form.html %}
 
-{% include social-networks.html %}
+<!-- {% include social-networks.html %} -->
