@@ -1326,6 +1326,7 @@ form input.error, form textarea.error {
   position: absolute;
   left: 0;
   top: 0;
+  background-color: blue;
 }
 .fullscreen .overlay {
   background-image: -webkit-linear-gradient(#000 0%, #000 60%, #000);
