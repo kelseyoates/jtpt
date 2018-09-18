@@ -4,13 +4,13 @@
 - name: About
   path: "#about"
   section_id: about
-- name: Transformations
+- name: Services
   path: "#services"
   section_id: services
-- name: Testimonials
+- name: Transformations
   path: "#transformations"
   section_id: transformations
-- name: Team
+- name: Testimonials
   path: "#testimonials"
   section_id: transformations
 # - name: Blog
