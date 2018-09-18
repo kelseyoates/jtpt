@@ -1327,6 +1327,7 @@ form input.error, form textarea.error {
   left: 0;
   top: 0;
   background-color: blue;
+  background-image: url("/assets/images/logo.png");
 }
 .fullscreen .overlay {
   background-image: -webkit-linear-gradient(#000 0%, #000 60%, #000);
@@ -1424,7 +1425,7 @@ p.small-title {
     text-transform: uppercase;
     color: #ccc;
     letter-spacing: 2px;
-    background: url(../images/@stock/li-item.png) left center no-repeat; }
+    background: url(../images/jtptshirt.jpg) left center no-repeat; }
   .fullscreen .layer ul li:first-child {
     background: none; }
 .fullscreen .layer.alt {
