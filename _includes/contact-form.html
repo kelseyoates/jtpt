@@ -25,18 +25,14 @@
             </div>
           </form>
 
-          <form name="contact" method="POST" netlify>
-              <p>
-                <label>Email: <input type="text" name="name" /></label>
-              </p>
-              <p>
-                <label>Message: <textarea name="message"></textarea></label>
-              </p>
-              <div data-netlify-recaptcha></div>
-              <p>
-                <button type=”submit”>Send</button>
-              </p>
-            </form>
+          <form action="https://formspree.io/kelsey.oates@gmail.com"
+          method="POST">
+        <input type="text" name="name">
+        <input type="email" name="_replyto">
+        <input type="text" name="message">
+        <input type="submit" value="Send">
+    </form>
+ 
 
         </div>
       </div>
