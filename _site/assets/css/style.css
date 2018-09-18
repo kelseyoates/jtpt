@@ -1325,8 +1325,7 @@ form input.error, form textarea.error {
   left: 0;
   top: 0;
   background-color: blue;
-  background-image: url("/assets/images/logo.png");
-  background: url(../images/jtptshirt.jpg) left center no-repeat;
+  background: url(../images/jtptshirt.jpg) center no-repeat cover;
 }
 .fullscreen .overlay {
   background-image: -webkit-linear-gradient(#000 0%, #000 60%, #000);
