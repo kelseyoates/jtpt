@@ -1460,10 +1460,12 @@ p.small-title {
 
 /* Services */
 .main-services {
+  border: none;
   /* border-top: 1px solid #eaeaea;
   border-left: 1px solid #eaeaea;  */
 }
-  .main-services .modIconText {
+  .main-services .modIconText { 
+    border: none;
     /* border-right: 1px solid #eaeaea;
     border-bottom: 1px solid #eaeaea;  */
   }
@@ -3902,7 +3904,7 @@ body {
 .member-dec {
   /*background: #333;*/
   /*color: #ccc;*/
-  padding: 80px 40px;
+  padding: 20px 50px;
 }
 
 .member-dec h3 {
