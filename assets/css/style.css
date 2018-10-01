@@ -1460,11 +1460,13 @@ p.small-title {
 
 /* Services */
 .main-services {
-  border-top: 1px solid #eaeaea;
-  border-left: 1px solid #eaeaea; }
+  /* border-top: 1px solid #eaeaea;
+  border-left: 1px solid #eaeaea;  */
+}
   .main-services .modIconText {
-    border-right: 1px solid #eaeaea;
-    border-bottom: 1px solid #eaeaea; }
+    /* border-right: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;  */
+  }
   .main-services .columns {
     padding: 0; }
   .main-services .icon-text-advanced {
@@ -3218,7 +3220,7 @@ body {
 .modIconText .icon-text-simple h3, .modIconText .icon-text-simple p {
   margin-left: 73px; }
 .modIconText .icon-text-advanced {
-  padding: 80px 100px;
+  padding: 20px 50px;
   color: #999;
   text-align: center;
   background: none; }
