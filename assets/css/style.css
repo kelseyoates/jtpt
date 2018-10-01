@@ -167,7 +167,7 @@ hr {
   padding: 0 60px; }
 
 .full {
-  padding: 160px 0 80px;
+  padding: 50px 0 80px;
   background-size: cover;
   background-position: 50% 50%;
   clear: both;
@@ -3904,7 +3904,7 @@ body {
 .member-dec {
   /*background: #333;*/
   /*color: #ccc;*/
-  padding: 20px 50px;
+  padding: 20px 20px;
 }
 
 .member-dec h3 {
@@ -4448,7 +4448,7 @@ body {
   .right-half {
     width: 100%;
     left: 0;
-    padding: 60px;}
+    padding: 50px;}
 
   .modMasonryGallery.alt ul.gallery li {
     width: 46%;
